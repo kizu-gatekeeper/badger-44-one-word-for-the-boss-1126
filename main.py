@@ -1,6 +1,8 @@
 """Entry for make.fun bounty: u-swift-badger-44-one-word-for-the-boss-6b48c735.
 
-Writes the entry word to entry.txt in MAKEFUN_OUTPUT_DIR.
+Writes the entry word to entry.txt in MAKEFUN_OUTPUT_DIR
+(the current directory by default), with no trailing newline.
+The word is validated as a single token before it is written.
 """
 import os
 
